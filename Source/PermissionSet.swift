@@ -25,7 +25,7 @@
 open class PermissionSet {
     
     /// The permissions in the set.
-    public let permissions: Set<Permission>
+    open let permissions: Set<Permission>
     
     /// The delegate of the permission set.
     open weak var delegate: PermissionSetDelegate?
